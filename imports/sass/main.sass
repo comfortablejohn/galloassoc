@@ -1,0 +1,117 @@
+@import "reset"
+@import "colours"
+@import "sizes"
+@import "circles"
+@import "grid"
+
+html, body
+    height: 100%
+
+html
+    font-family: Quicksand, sans-serif, Helvetica, sans-serif
+    color: $darktext
+    background-color: $darkbackground
+
+body
+    position: relative
+    padding-bottom: $footerheight
+
+a
+    text-decoration: none
+
+a:visited
+    color: inherit
+
+#react-root
+    height: 100%
+
+.header
+    background-color: $headerbackground
+    height: $headerheight
+    margin: 0 auto
+    top: 0
+    display: block
+    position: relative
+
+.navmenu
+    position: absolute
+    bottom: 0
+    display: block
+    background-color: $burgundy
+
+.navmenu li
+    display: inline
+    padding-left: 5px
+    padding-right: 5px
+
+.navmenu a
+    color: $lighttext
+
+.footer
+    position: absolute
+    bottom: 0
+    background-color: $footerbackground
+    height: $footerheight
+    display: block
+    right: 0
+    left: 0
+
+// .footer
+//     background-color: $footerbackground
+//     position: relative
+//     margin-top: -$footerheight
+//     height: $footerheight
+//     clear: both
+
+.logo
+    top: 0
+    right: 10px
+    height: $headerheight
+    position: absolute
+
+.logo .flag
+    position: absolute
+    margin: auto
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+
+.logo .text
+    color: $lighttext
+    display: inline
+
+.wrap
+    height: 100%
+    overflow-y: auto
+
+.container
+    min-height: 100%
+    background-color: $darkbackground
+
+
+.contentContainer
+    background-color: $lightbackground
+    right: 100px
+    left: 100px
+    margin: 0 auto
+    top: $headerheight
+    // bottom: 0
+    position: absolute
+    // padding-bottom: $headerheight
+    overflow: visible
+
+.big-button
+    border-radius: 7px
+    background-color: $headerbackground
+    color: $lighttext
+    font-size: 3rem
+    // left: 0
+    // right: 0
+    // width: 300px
+    // top: 50%
+    // position: absolute
+    text-align: center
+
+.big-button a
+    color: $lighttext

@@ -1,0 +1,239 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+ * v2.0 | 20110126
+ * License: none (public domain) */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.imgcircle {
+  stroke: black;
+  fill: none; }
+
+.circleGroup {
+  position: absolute; }
+
+.shadow {
+  -webkit-box-shadow: 0px 0px 17px 14px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 17px 14px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 17px 14px rgba(0, 0, 0, 0.75); }
+
+.circle {
+  fill: #fafafa; }
+
+.circle:hover {
+  cursor: pointer;
+  display: block; }
+
+.stamp1 {
+  top: 50%;
+  left: 35%;
+  width: 200px;
+  height: 200px; }
+
+.border {
+  border: 1px black solid; }
+
+.stamp {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 200px;
+  width: 300px;
+  height: 200px;
+  border: 3px solid blue; }
+
+.grid {
+  margin: 0 auto;
+  max-width: 950px; }
+
+.grid-item {
+  border-radius: 3px; }
+
+.spacer {
+  width: 240px;
+  height: 240px; }
+
+.listingsgrid {
+  padding-top: 10px;
+  min-height: 600px;
+  margin-left: 230px;
+  display: block;
+  overflow: visible;
+  margin-right: -10px; }
+
+.imgboximg {
+  width: 350px; }
+
+.box {
+  float: left;
+  height: 280px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  max-width: 350px;
+  margin: 0px 10px 20px 10px;
+  overflow: auto;
+  display: block;
+  position: relative; }
+
+.infoBox {
+  background: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 350px;
+  line-height: 20px;
+  padding: 0px 5px 9px 10px; }
+
+.desc {
+  float: left;
+  clear: both; }
+
+.price {
+  float: right;
+  display: inline;
+  font-weight: bold;
+  margin: 0;
+  padding-right: 1em; }
+
+.suburb {
+  float: none;
+  font-weight: bold;
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%; }
+
+html {
+  font-family: Quicksand, sans-serif, Helvetica, sans-serif;
+  color: #463432;
+  background-color: #fafafa; }
+
+body {
+  position: relative;
+  padding-bottom: 90px; }
+
+a {
+  text-decoration: none; }
+
+a:visited {
+  color: inherit; }
+
+#react-root {
+  height: 100%; }
+
+.header {
+  background-color: #763730;
+  height: 90px;
+  margin: 0 auto;
+  top: 0;
+  display: block;
+  position: relative; }
+
+.navmenu {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  background-color: #763730; }
+
+.navmenu li {
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px; }
+
+.navmenu a {
+  color: #F6D7D4; }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #273547;
+  height: 90px;
+  display: block;
+  right: 0;
+  left: 0; }
+
+.logo {
+  top: 0;
+  right: 10px;
+  height: 90px;
+  position: absolute; }
+
+.logo .flag {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+.logo .text {
+  color: #F6D7D4;
+  display: inline; }
+
+.wrap {
+  height: 100%;
+  overflow-y: auto; }
+
+.container {
+  min-height: 100%;
+  background-color: #fafafa; }
+
+.contentContainer {
+  background-color: #ffffff;
+  right: 100px;
+  left: 100px;
+  margin: 0 auto;
+  top: 90px;
+  position: absolute;
+  overflow: visible; }
+
+.big-button {
+  border-radius: 7px;
+  background-color: #763730;
+  color: #F6D7D4;
+  font-size: 3rem;
+  text-align: center; }
+
+.big-button a {
+  color: #F6D7D4; }
+
+/*# sourceMappingURL=main.css.map */

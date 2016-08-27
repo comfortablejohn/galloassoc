@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+            "info": {
+                "price": "$50,000,000", "address": "Myaree",
+                "desc": "quite nice", "type": "residential sale"
+            },
+            "imgurl": "/imgs/listings/listing_1.jpg"
+    },
+    {
+        "id": "2",
+            "info": {
+                "price": "$10,000,000", "address": "Jandakot",
+                "desc": "quite nice", "type": "commercial lease"
+            },
+            "imgurl": "/imgs/listings/listing_2.jpg"
+    },
+    {
+        "id": "3",
+            "info": {
+                "price": "$30,000,000", "address": "Cannning",
+                "desc": "quite nice", "type": "residential sale"
+            },
+            "imgurl": "/imgs/listings/listing_3.jpg"
+    },
+    {
+        "id": "4",
+            "info": {
+                "price": "$50,000,000", "address": "Perth",
+                "desc": "quite nice", "type": "commercial sale"
+            },
+            "imgurl": "/imgs/listings/listing_4.jpg"
+    },
+    {
+        "id": "5",
+            "info": {
+                "price": "$90,000,000", "address": "Leeming",
+                "desc": "quite nice", "type": "residential lease"
+            }, "
+            imgurl": "/imgs/listings/listing_5.jpg"
+    }
+]
