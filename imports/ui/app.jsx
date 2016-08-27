@@ -64,14 +64,17 @@ class App extends Component {
         // ));
     }
 
+//     <Header activePage={this.state.pageName}/>
+//     {content}
+// </div>
+// <Footer />
+
     render() {
         var content = PAGES.find((p) => (p.name === this.state.pageName)).page;
         return (
-            <div className="wrap">
-                <div className="container">
-                    <Header activePage={this.state.pageName}/>
-                    {content}
-                </div>
+            <div className="container">
+                <Header activePage={this.state.pageName}/>
+                {content}
                 <Footer />
             </div>
         )

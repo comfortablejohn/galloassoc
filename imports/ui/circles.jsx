@@ -86,11 +86,9 @@ export default class CircleGroup extends Component {
     render() {
         var circles = CIRCDATA.map(circ => <Circle size={circ.size} pos={circ.pos} url={circ.url} title={circ.title} />)
         return (
-            <div id="grid" className="grid">
+            <div id="grid">
                 {circles[0]}
-                <div className="spacer grid-item"></div>
                 {circles[1]}
-                <div className="spacer grid-item"></div>
                 {circles[2]}
                 <div className="grid-item big-button">
                     <span className="fa fa-home fa-3x"></span><span className="fa fa-industry fa-2x"></span>
