@@ -91,9 +91,7 @@ export default class ListingsPage extends Component {
         //     <Grid d
         // });
         return (
-            <div className="contentContainer">
-                <Grid listings={this.state.data} />
-            </div>
+            <Grid listings={this.state.data} />
         );
     }
 }

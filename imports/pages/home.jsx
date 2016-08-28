@@ -9,9 +9,7 @@ export default class Home extends Component {
         //     </div>
         // )
         return (
-            <div className="contentContainer">
-                <CircleGroup width={window.innerWidth} height={window.innerHeight - 180}/>
-            </div>
+            <CircleGroup width={window.innerWidth} height={window.innerHeight - 180}/>
         )
     }
 }
